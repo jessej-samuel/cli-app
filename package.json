@@ -1,24 +1,31 @@
 {
-  "name": "sam-cli",
+  "name": "jessej",
   "version": "1.0.0",
-  "description": "A noob cli app made by me.",
+  "description": "A simple cli app made using node.js and Wiki-API",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "test": ""
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessej-samuel/cli-app.git"
   },
   "keywords": [
-    "cli",
     "jessej",
-    "samuel",
-    "sam"
+    "cli"
   ],
-  "author": "Jessej Samuel",
-  "license": "ISC",
+  "author": "Jessej Samuel 1234jessej@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessej-samuel/cli-app/issues"
+  },
+  "homepage": "https://github.com/jessej-samuel/cli-app#readme",
   "dependencies": {
     "chalk": "^4.1.1",
-    "cmdify": "^0.0.4",
     "figlet": "^1.5.0",
     "inquirer": "^8.1.2",
+    "jessej": "^1.0.0",
     "node-fetch": "^2.6.1"
   }
 }
